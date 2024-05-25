@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OneShotshop</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/itc-slider.css">
+	<link rel="stylesheet" href="css/animated-accordion.css">
+
+</head>
+<body>
+<header class="header">
+	<div class="container">
+		<nav class="nav">
+			<h4 class="logo">OneShot</h4>
+			<ul class="nav__list">
+				<li class="nav_item"> <a href="" class="nav__link">Main</a></li>
+				<li class="nav_item"> <a href="" class="nav__link">Keyboard</a></li>
+				<li class="nav_item"> <a href="" class="nav__link">Main</a></li>
+				<li class="nav_item"> <a href="" class="nav__link">Main</a></li>
+			</ul>
+		</nav>
+		<button class="btn__menu" onclick="menu()">Меню</button>
+		<div class="header__menu">
+			<ul  class="menu__list">
+				<li class="menu__item"> <a href="" class="menu__link">Вход</a></li>
+				<li class="menu__item"> <a href="" class="menu__link">Корзина</a></li>
+				<li class="menu__item"> <a href="" class="menu__link">Акции</a></li>
+				<li class="menu__item"> <a href="" class="menu__link">Каталог</a></li>
+				<li class="menu__item">
+					<div class="theme">
+						<h4 class="theme__title">Смена темы</h4>
+						<ul class="theme__list">
+							<li class="theme__item">
+								<div class="theme__light" onclick="choiceLight()"></div>
+							</li>
+							<li class="theme__item">
+								<div class="theme__dark" onclick="choiceDark()"></div>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<main class="main">
+	<section class="shop">
+		<div class="container">
+			<h1 class="shop__title">OneShotshop</h1>
+			<img src="img/tovar.jpg.jpg" alt="" class="shop__img">
+			<h2 class="shop__title">Описание</h2>
+			<p class="shop__text">OneShot – это сюрреалистическая приключенческая игра-головоломка с видом сверху и уникальными игровыми возможностями. Вам предстоит провести ребенка по загадочному миру с целью возродить давно погибшее солнце. Мир знает о вашем существовании.</p>
+			<h2 class="shop__title">Цена</h2>
+			<p class="shop__price">385 р.</p>
+			<button class="shop__btn" id="btn" onclick="buy()">Купить</button>
+		</div>
+	</section>
+	<section class="slider">
+		<div class="container">
+			<div class="itc-slider" data-slider="itc-slider">
+				<div class="itc-slider-wrapper">
+					<div class="itc-slider-items">
+						<div class="itc-slider-item">
+							<img src="img/slider1.jpg" alt="" class="slider-img">
+						</div>
+						<div class="itc-slider-item">
+							<img src="img/slider2.jpg" alt="" class="slider-img">
+						</div>
+						<div class="itc-slider-item">
+							<img src="img/slider3.jpg" alt="" class="slider-img">
+						</div>
+					</div>
+				</div>
+				<button class="itc-slider-btn itc-slider-btn-prev"></button>
+				<button class="itc-slider-btn itc-slider-btn-next"></button>
+			</div>
+		</div>
+	</section>
+	<section class="atc">
+		<div class="container">
+			<div class="accordion" id="accordion-1">
+				<div class="accordion__item">
+					<div class="accordion__header">
+						<h3 class="accordion__title">Niko</h3>
+					</div>
+					<div class="accordion__body">
+						<p class="accordion__text">Человеческий ребёнок, внешне напоминающий кошку, но не являющийся ей.</p>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<div class="accordion__header">
+						<h3 class="accordion__title">Разработчики</h3>
+					</div>
+					<div class="accordion__body">
+						<p class="accordion__text">Eliza Velasquez Nightmargin GakaCheezer</p>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<div class="accordion__header">
+						<h3 class="accordion__title">Жанр</h3>
+					</div>
+					<div class="accordion__body">
+						<p class="accordion__text">Головоломка
+Приключение</p>
+					</div>			
+				</div>
+				
+				
+			
+		
+		</div>
+	</section>
+	<section class="maps">
+		<div class="container">
+			<h2 class="maps__title">Карты</h2>
+			<div class="google">
+				<h3 class="google_title">Гугл карта</h3>
+				<iframe style="width: 100% src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d949.6799563938256!2d31.471947245299823!3d61.57214984294611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4699027582925547%3A0x8fb0a6b55c3d4298!2z0J_QvtGH0YLQsCDQkdCw0L3Qug!5e0!3m2!1sru!2sru!4v1707556943040!5m2!1sru!2sru width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+			</div>
+			<div class="yndex">
+				<h3 class="yandex__title">Яндекс карты</h3>
+				<iframe style="width: 100%;" src="https://yandex.ru/map-widget/v1/?um=constructor%3Abaa75e171340e3c1b58f01a3eb86675a769ab580d1985fba2e61e149a21f9894&amp;source=constructor" width="788" height="571" frameborder="0"></iframe>
+			</div>
+		</div>
+	</section>
+	<section class="video">
+		<div class="container">
+				<video id="myVideo" autoplay muted loop>
+					<source src="video/OneShot Trailer (720p).mp4" class="video__src" type="video/mp4">
+				</video>
+				<h2></h2>	
+				<div class="video__content">
+		
+			<h2 class="video__titl">Name</h2>
+			<p class="video__text">OneShot</p>
+			<div class="video__btn-list">
+				<button  onclick="play()" id="pause" class="video__btn">Пауза</button>
+				<button  onclick="mute()" id="sound" class="video__btn">Звук</button>
+				<button  onclick="prev()" id="prev" class="video__btn">prev</button>
+				<button  onclick="next()" id="next" class="video__btn">next</button>
+			</div>
+		</div>
+		
+		</div>
+	</section>
+	<section class="clock">
+	<div class="container">
+		<p class="time">
+			
+		</p>
+		<div class="tenor-gif-embed" data-postid="26819412" data-share-method="host" data-aspect-ratio="9" data-width="50%">
+		<a href="https://tenor.com/view/niko-oneshot-jam-ez-gif-26819412">Niko Oneshot Sticker</a>from 
+		<a href="https://tenor.com/search/niko-stickers">Niko Stickers</a></div>
+	 <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+	</div>	
+</section>
+<button class="basket">
+	<img class="basket_img" src="img/basket.png">
+	<p class="price">0</p>
+</button>
+</main>
+
+<footer class="footer">
+	<div class="container container_footer">
+		<p class="footer__text"> OneShot</p>
+	</div>
+
+</footer>
+<script src="js/index.js"></script>
+<script src="js/itc-slider.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/animated-accordion.js"></script>
+<script src="js/them.js"></script>
+<script src="js/time.js"></script>
+<script src="js/video-player.js"></script>
+</body>
+
+</html>

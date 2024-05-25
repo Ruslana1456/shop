@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.shop__img{
+	width: 100%;
+}
+.slider-img{
+	width: 100%;
+	height: 100%;
+}
+.header__menu{
+	position: absolute;
+	z-index: 1;
+	background-color: gray;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	display: none;
+}
+.menu__list{
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu__link{
+	text-decoration: none;
+	color: black;
+}
+.is-active{
+	display: block;
+}
+.maps{
+background-color: ffff85(87,142,201);
+padding: 50px 0;
+}
+.maps__title{
+	text-align: center;
+	font-size: 40px;
+	color: 8c4743;
+}
+.google__title, .yandex__title{
+	text-align: center;
+	font-size: 30px;
+	color:8c4743(2,48,64,);
+}
+.header{
+	background-color:blue ;
+	padding: 60px 0;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	font-size: 60px;
+	color: white;
+	background-color: rgb(52, 52, 51);
+	padding: 20px;
+	border-radius: 20px;
+}
+.nav__list{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 50%;
+}
+.nav__link{
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+}
+.footer{
+	background-color: blue;
+}
+.footer_text{
+	font-size: 30px;
+	color: black;
+	margin: 0;
+	text-align: center;
+}
+
+
+.theme__light{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: azure;
+	cursor: pointer;
+}
+.theme__dark{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: rgb(0, 18, 82);
+	cursor: pointer;
+}
+.theme__list{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+.video{
+position: relative;
+}
+#myVideoid{
+	width: 100%;
+}
+
+.video__content{
+	position: absolute;
+	bottom: 0;
+	width: 71.5%;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding:60px ;
+	box-sizing: border-box;
+
+}
+.basket{
+	width: 150px;
+	height: 150px;
+	padding: 20px 5px;
+	background-color: ;
+	border-radius:10px ;
+	border:5px double ;
+	cursor: pointer;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.basket_img{
+	width: 100px;
+	
+}
